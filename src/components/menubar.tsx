@@ -25,7 +25,6 @@ const MenuBar = () =>{
       }
   ];
   return (
-    <>
       <div className="relative float-right">
         <ul className="inline-block">
           {
@@ -42,7 +41,6 @@ const MenuBar = () =>{
           }
         </div>
       </div>
-    </>
   );
 }
 
