@@ -5,9 +5,13 @@ function range(start, end, increment = 1) {
 module.exports = {
   content: ["./src/**/*.{html,js,tsx,ts}"],
   theme: {
-    extend: {},
+    extend: {    
+      colors:{
+        "Mint":"#0082f3",
+      },
+    },
     fontSize:{
-      ...range(5, 500,5).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
+      ...range(5, 50,1).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
     },
     spacing:{
       ...range(5, 500.5).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
@@ -22,6 +26,9 @@ module.exports = {
     },
     backgroundSize:{
       '20pauto':'20px,auto',
+    },
+    maxWidth:{
+      mintDiv: "960px",
     }
   },
   plugins: [],
