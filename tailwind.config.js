@@ -10,11 +10,16 @@ module.exports = {
         "Mint":"#0082f3",
       },
     },
+    fontFamily:{
+      roboto:"'Roboto', sans-serif",
+      montserrat: "Montserrat, sans-serif",
+    },
     fontSize:{
       ...range(5, 50,1).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
     },
     spacing:{
       ...range(5, 500.5).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
+      '960p': '960px',
     },
     backgroundImage:{
       'instagram': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d8433707d7be9_instagram.svg"), linear-gradient(180deg, #fff, #fff)',
