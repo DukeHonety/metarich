@@ -2,16 +2,20 @@ import Abouts from "./abouts";
 import Roadmaps from "./roadmaps";
 import Rarities from "./rarities";
 import Teams from "./teams";
-import MenuBar from "../components/menubar";
+import PageHeader from "../components/header";
+import PageFooter from "../components/footer";
 
 const Richyshib = () =>{
     return (
         <>
-            <MenuBar />
-            <Abouts />
-            <Roadmaps />
-            <Rarities />
-            <Teams />
+            <div className="bg-black">
+                <PageHeader />
+                <Abouts />
+                <Roadmaps />
+                <Rarities />
+                <Teams />
+                <PageFooter />
+            </div>
         </>
     );
 }
