@@ -7,7 +7,11 @@ module.exports = {
   theme: {
     extend: {    
       colors:{
-        "Mint":"#0082f3",
+        "Mint":{
+          default:"#0082f3",
+        },
+        '444' : "#444444",
+        
       },
     },
     fontFamily:{
@@ -16,6 +20,9 @@ module.exports = {
     },
     fontSize:{
       ...range(5, 50,1).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
+    },
+    lineHeight: {
+      '44p': '44px',
     },
     spacing:{
       ...range(5, 500.5).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
@@ -34,6 +41,9 @@ module.exports = {
     },
     maxWidth:{
       mintDiv: "960px",
+    },
+    minWidth:{
+      mintBtn: "400px",
     }
   },
   plugins: [],

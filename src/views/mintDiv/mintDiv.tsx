@@ -1,5 +1,5 @@
 import MintImage from "../../assets/images/mint.gif";
-
+import MintBuy from "./mintbuy";
 const MintPage = () =>{
   return (
     <div className="block lg:w-960p p-20p m-0 mx-auto">
@@ -10,7 +10,7 @@ const MintPage = () =>{
             <img src={MintImage}/>
           </div>
           <div className="w-1/2 flex">
-            
+            <MintBuy />
           </div>
         </div>
       </div>
