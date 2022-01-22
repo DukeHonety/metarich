@@ -1,7 +1,17 @@
+import Abouts from "./abouts";
+import Roadmaps from "./roadmaps";
+import Rarities from "./rarities";
+import Teams from "./teams";
+import MenuBar from "../components/menubar";
+
 const Richyshib = () =>{
     return (
         <>
-            This is Richyshib
+            <MenuBar />
+            <Abouts />
+            <Roadmaps />
+            <Rarities />
+            <Teams />
         </>
     );
 }

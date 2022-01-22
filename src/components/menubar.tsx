@@ -1,7 +1,9 @@
+import routes from "../routes";
+
 const MenuBar = () => {
     return (
         <>
-            This is Menubar
+            This is MenuBar
         </>
     )
 };

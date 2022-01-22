@@ -6,7 +6,7 @@ import Richyshib from './views';
 function App() {
   return (
     <>
-    
+      <Richyshib></Richyshib>
     </>
   );
 }
