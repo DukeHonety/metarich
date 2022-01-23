@@ -22,7 +22,7 @@ const MintBuy = () => {
         minuse: "inline-block bg-white w-30p h-30p cursor-pointer br-0 rounded-l-full text-center hover:bg-gray-100",
         input: "inline-block bg-white w-50p h-30p cursor-pointer br-0 text-center text-444 align-top",
         plus: "inline-block bg-white w-30p h-30p cursor-pointer br-0 rounded-r-full text-center hover:bg-gray-100",
-        mintBuyBtn: "block min-w-mintBtn p-5p px-10p rounded-full text-22p font-bold text-white bg-Mint-default mt-35p",
+        mintBuyBtn: "block min-w-mintBtn p-5p px-10p rounded-full text-22p font-bold text-white bg-Mint mt-35p",
     };
     return (
         <div className="pl-50p text-left mt-80p">
