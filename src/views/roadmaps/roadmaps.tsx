@@ -6,9 +6,9 @@ const Roadmaps = () =>{
         titleDiv: "px-20p",
         title:"text-38p text-Mint text-montserrat font-bold text-center text-roboto",
         decription: "px-220p m-20p text-white text-18p text-center",
-        roadContain: "max-w-roadMaxDiv w-4/5 mx-auto pt-60p",
+        roadContain: "relative max-w-roadMaxDiv w-4/5 mx-auto pt-60p",
         timeline: "absolute flex w-40p h-full justify-center items-center",
-        ctimeline: "",
+        ctimeline: "bg-white w-2p",
     };
     const roadMString = {
         title: "LAUNCH ROADMAP",
@@ -53,7 +53,7 @@ const Roadmaps = () =>{
             </div>
             <div className={roadMClass.roadContain}>
                 <div className={roadMClass.timeline} >
-                    <div className="relative w-2p h-4/5 bg-roadStep">
+                    <div className="relative w-2p h-4/5 bg-roadStep">z
                         <div className={roadMClass.ctimeline}></div>
                     </div>
                 </div>

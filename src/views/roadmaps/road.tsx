@@ -17,12 +17,12 @@ const Road = (props:any) => {
     const roadClass = {
         contain: "flex mb-40p items-center ",
         step: "flex min-w-stepMin1 py-16p items-center",
-        stepImg: "relative border-black border inline-block max-w-full align-center",
+        stepImg: "relative border-black border inline-block max-w-full w-40p align-center",
         content: "flex p-24p justify-flex-start items-center border-2 border-white rounded-16p",
         imgDiv: "flex min-w-stepMin2 h-240p justify-center items-center rounded-12p",
         img:"max-w-full w-55% align-middle inline-block",
         textDiv: "flex ml-24p flex-col items-flex-start",
-        title: "font-semibold text-Mint text-25p uppercase text-montserrat",
+        title: "font-semibold text-Mint text-25p uppercase text-montserrat mt-8p mb-12p",
         description: "text-avenir mb-10p text-16p text-roadDetail",
     };
     return (
