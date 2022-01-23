@@ -1,20 +1,21 @@
-import { useState } from "react";
+import {useState} from "react";
 
 const MintBuy = () => {
 
     const [buycount,setBuyCount] = useState(0);
+
     const decreaseBycount = () => {
         let value:number = buycount;
         value--;
         if ( value < 0)
             value = 0;
         setBuyCount(value);
-    }
+    };
     const increaseBycount = () => {
         let value:number = buycount;
         value++;
         setBuyCount(value);
-    }
+    };
 
     const mintClass = {
         mintTitle: "m-20p mb-30p text-montserrat text-38p leading-44p font-bold text-white",
