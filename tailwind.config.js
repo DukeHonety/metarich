@@ -7,16 +7,14 @@ module.exports = {
   theme: {
     extend: {    
       colors:{
-        "Mint":{
-          default:"#0082f3",
-        },
+        "Mint":"#0082f3",
         '444' : "#444444",
-        
       },
     },
     fontFamily:{
       roboto:"'Roboto', sans-serif",
       montserrat: "Montserrat, sans-serif",
+      avenir: "Avenirnextltpro, sans-serif",
     },
     fontSize:{
       ...range(5, 50,1).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
@@ -27,6 +25,7 @@ module.exports = {
     spacing:{
       ...range(5, 500.5).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
       '960p': '960px',
+      '2p': '2px',
     },
     backgroundImage:{
       'instagram': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d8433707d7be9_instagram.svg"), linear-gradient(180deg, #fff, #fff)',
