@@ -11,6 +11,8 @@ module.exports = {
         '444' : "#444444",
         "roadDetail" : "hsla(0, 0%, 100%, 0.65)",
         "roadStep": "hsla(0, 0%, 100%, 0.15)",
+        "rarityMenuDisable": "#b6b6b6",
+        "rarityMenuLine": "#8f8e8e",
       },
     },
     fontFamily:{

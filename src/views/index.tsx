@@ -1,6 +1,6 @@
 import Abouts from "./abouts";
 import Roadmaps from "./roadmaps/roadmaps";
-import Rarities from "./rarities";
+import Rarities from "./traitRarity/rarities";
 import Teams from "./teams";
 import PageHeader from "../components/header";
 import PageFooter from "../components/footer";
