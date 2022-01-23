@@ -1,9 +1,14 @@
+import Road from "./road";
+
 const Roadmaps = () =>{
     const roadMClass = {
         container: "pt-20p px-80p",
         titleDiv: "px-20p",
         title:"text-38p text-Mint text-montserrat font-bold text-center text-roboto",
-        decription: "px-220p mb-40p text-white text-18p text-center",
+        decription: "px-220p m-20p text-white text-18p text-center",
+        roadContain: "max-w-roadMaxDiv w-4/5 mx-auto pt-60p",
+        timeline: "absolute flex w-40p h-full justify-center items-center",
+        ctimeline: "",
     };
     const roadMString = {
         title: "LAUNCH ROADMAP",
@@ -41,10 +46,22 @@ const Roadmaps = () =>{
         },
     ];
     return (
-        <div className={roadMClass.container}>
+        <div className={roadMClass.container} id="#Roadmap">
             <div>
                 <h2 className={roadMClass.title}>{roadMString.title}</h2>
                 <p className={roadMClass.decription}>{roadMString.description}</p>
+            </div>
+            <div className={roadMClass.roadContain}>
+                <div className={roadMClass.timeline} >
+                    <div className="relative w-2p h-4/5 bg-roadStep">
+                        <div className={roadMClass.ctimeline}></div>
+                    </div>
+                </div>
+                <div className="">
+                    {roadMaps.map((road,key)=>{
+                        return <Road data={road} num={key} key={key}/>
+                    })}
+                </div>
             </div>
         </div>
     );

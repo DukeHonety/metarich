@@ -9,6 +9,8 @@ module.exports = {
       colors:{
         "Mint":"#0082f3",
         '444' : "#444444",
+        "roadDetail" : "hsla(0, 0%, 100%, 0.65)",
+        "roadStep": "hsla(0, 0%, 100%, 0.15)",
       },
     },
     fontFamily:{
@@ -23,9 +25,10 @@ module.exports = {
       '44p': '44px',
     },
     spacing:{
-      ...range(5, 500, 5).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
+      ...range(5, 500, 1).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
       '960p': '960px',
-      '2p': '2px',
+      '2p' : '2px',
+      '55%' : '55%',
     },
     backgroundImage:{
       'instagram': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d8433707d7be9_instagram.svg"), linear-gradient(180deg, #fff, #fff)',
@@ -38,11 +41,17 @@ module.exports = {
     backgroundSize:{
       '20pauto':'20px,auto',
     },
+    borderRadius:{
+      '16p' : '16px',
+    },
     maxWidth:{
       mintDiv: "960px",
+      roadMaxDiv: "960px",
     },
     minWidth:{
       mintBtn: "400px",
+      stepMin1: "120px",
+      stepMin2: "240px",
     }
   },
   plugins: [],
