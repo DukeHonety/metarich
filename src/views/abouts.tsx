@@ -6,7 +6,7 @@ const Abouts = () =>{
         contianer: "p-40p px-80p",
         lContent: "w-1/2 flex px-20p",
         rContent: "w-1/2 flex flex-col px-20p justify-center",
-        about: "mb-40p text-white text-16p text-center",
+        about: "mb-40p text-white text-avenir text-16p text-center",
         subTitle: "text-Mint font-bold text-14p text-montserrat",
         subTitleLine: "w-1/3 h-2p ml-20p bg-Mint",
         subTitleContent: "text-white mb-20p mt-20p text-30p font-bold text-montserrat uppercase",
