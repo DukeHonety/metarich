@@ -11,8 +11,8 @@ export const GetTypes = () =>{
     return TypeRairity;
 };
 
-const RairityData = {
-    'Fur': [{
+const RarityData:any = {
+    Fur: [{
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1787bdf617d02b8f9733c_2.png",
             title: "CLASSIC",
             rate: "40%"
@@ -48,15 +48,24 @@ const RairityData = {
             rate: "2%"
         },
     ],
-    "Background": [],
-    "Clothes": [],
-    "Eyes": [],
-    "Hat": [],
-    "Necklace": [],
-    "Ear": [],
-    "Mouth": [],
-    "Backpack": [],
+    Background: [],
+    Clothes: [],
+    Eyes: [],
+    Hat: [],
+    Necklace: [],
+    Ear: [],
+    Mouth: [],
+    Backpack: [],
 };
 
+export const GetTypeData = (type: string) =>{
+    let index = 0;
+    for(let key in RarityData)
+    {
+        if ( key === type )
+            return RarityData[key];
+    }
+    return RarityData;
+};
 
 export default RarityTypes;
