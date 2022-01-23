@@ -11,7 +11,7 @@ const Rarities = () =>{
         tabContent: "max-w-4/5 ml-1/5 mx-100p mt-40p relative block overflow-hidden text-center",
     }
     return (
-        <div className={RarityClass.contain}>
+        <div className={RarityClass.contain} id="rarity">
             <h1 className={RarityClass.title}>Trait Rarity</h1>
             <div>
                 <div className={RarityClass.tabMenu}>
