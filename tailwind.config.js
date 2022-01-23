@@ -13,6 +13,7 @@ module.exports = {
         "roadStep": "hsla(0, 0%, 100%, 0.15)",
         "rarityMenuDisable": "#b6b6b6",
         "rarityMenuLine": "#8f8e8e",
+        "rarityPersonRate": "#a3a3a3",
       },
     },
     fontFamily:{
@@ -31,6 +32,7 @@ module.exports = {
       '960p': '960px',
       '2p' : '2px',
       '55%' : '55%',
+      '1/5': "10%",
     },
     backgroundImage:{
       'instagram': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d8433707d7be9_instagram.svg"), linear-gradient(180deg, #fff, #fff)',
@@ -43,21 +45,22 @@ module.exports = {
     backgroundSize:{
       '20pauto':'20px,auto',
     },
-    borderRadius:{
-      '16p' : '16px',
-    },
     maxWidth:{
       mintDiv: "960px",
       roadMaxDiv: "960px",
+      '4/5': "80%",
     },
     minWidth:{
       mintBtn: "400px",
       stepMin1: "120px",
       stepMin2: "240px",
+      "250p": "250px",
     },
     borderRadius:{
       full: "100%",
       '16p': "16px",
+      '20p' : '20px',
+      '50p' : '50px',
     }
   },
   plugins: [],
