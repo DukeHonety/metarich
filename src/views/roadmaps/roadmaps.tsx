@@ -46,7 +46,7 @@ const Roadmaps = () =>{
         },
     ];
     return (
-        <div className={roadMClass.container} id="#Roadmap">
+        <div className={roadMClass.container} id="Roadmap">
             <div>
                 <h2 className={roadMClass.title}>{roadMString.title}</h2>
                 <p className={roadMClass.decription}>{roadMString.description}</p>
@@ -57,7 +57,7 @@ const Roadmaps = () =>{
                         <div className={roadMClass.ctimeline}></div>
                     </div>
                 </div>
-                <div className="">
+                <div className="z-0">
                     {roadMaps.map((road,key)=>{
                         return <Road data={road} num={key} key={key}/>
                     })}

@@ -2,7 +2,7 @@ import React from "react";
 import routes from "../routes";
 
 const MenuBar = () =>{
-  const style:string = "inline-block text-white p-20p text-20p";
+  const style:string = "inline-block text-white p-20p text-20p hover:text-Mint";
   const linkUrls = [
       {
           name: "",

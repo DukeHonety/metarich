@@ -15,7 +15,7 @@ const Road = (props:any) => {
     const data = props.data;
     const num = props.num;
     const roadClass = {
-        contain: "flex mb-40p items-center ",
+        contain: "flex mb-40p items-center z-2",
         step: "flex min-w-stepMin1 py-16p items-center",
         stepImg: "relative border-black border inline-block max-w-full w-40p align-center",
         content: "flex p-24p justify-flex-start items-center border-2 border-white rounded-16p",

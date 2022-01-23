@@ -20,7 +20,7 @@ const Abouts = () =>{
         }
     ];
     return (
-        <div className = {AboutClass.contianer} id="#About">
+        <div className = {AboutClass.contianer} id="About">
             <p className= {AboutClass.about}>{aboutStr}</p>
             <div className="flex">
                 <div className={AboutClass.lContent}>
