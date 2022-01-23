@@ -1,6 +1,9 @@
 const Roadmaps = () =>{
     const roadMClass = {
-
+        container: "pt-20p px-80p",
+        titleDiv: "px-20p",
+        title:"text-38p text-Mint text-montserrat font-bold text-center text-roboto",
+        decription: "px-220p mb-40p text-white text-18p text-center",
     };
     const roadMString = {
         title: "LAUNCH ROADMAP",
@@ -38,7 +41,11 @@ const Roadmaps = () =>{
         },
     ];
     return (
-        <div>
+        <div className={roadMClass.container}>
+            <div>
+                <h2 className={roadMClass.title}>{roadMString.title}</h2>
+                <p className={roadMClass.decription}>{roadMString.description}</p>
+            </div>
         </div>
     );
 }

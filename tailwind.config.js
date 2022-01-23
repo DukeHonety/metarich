@@ -23,7 +23,7 @@ module.exports = {
       '44p': '44px',
     },
     spacing:{
-      ...range(5, 500.5).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
+      ...range(5, 500, 5).reduce((merged, f) => ({ ...merged, [`${f}p`]: `${f}px`}), {}),
       '960p': '960px',
       '2p': '2px',
     },
