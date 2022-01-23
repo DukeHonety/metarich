@@ -52,6 +52,9 @@ module.exports = {
       mintBtn: "400px",
       stepMin1: "120px",
       stepMin2: "240px",
+    },
+    borderRadius:{
+      full: "100%",
     }
   },
   plugins: [],
