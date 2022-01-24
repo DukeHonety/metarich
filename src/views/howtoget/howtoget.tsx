@@ -7,7 +7,7 @@ const Howtoget = () =>{
         contain : "",
         title : "mb-5p mt-20p text-Mint text-36p font-bold text-center uppercase",
         description : "text-white text-center text-roboto text-14p",
-        meta: "flex mt-70p px-130p justify-space-between items-center",
+        meta: "flex mt-70p px-130p justify-between items-center",
     };
     const stringAry = {
         title: "HOW TO GET A META RICH",
