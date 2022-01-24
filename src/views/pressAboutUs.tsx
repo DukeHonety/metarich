@@ -1,6 +1,6 @@
 const PressAboutUs = () =>{
     return (
-        <div>
+        <div className="pt-40p">
             <h1 className="mb-5p text-Mint text-36p font-bold text-center">PRESS ABOUT US</h1>
             <div className="flex justify-center items-center">
                 <a className="w-250p" href="https://nftevening.com/event/meta-rich-club-mint/" target="_blank">
