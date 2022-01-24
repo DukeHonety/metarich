@@ -1,7 +1,8 @@
 import AboutImg from "../assets/images/about.gif";
-
+import configData from "../config.json";
 const Abouts = () =>{
-    const aboutStr:string = "Welcome to our community. Being part of the meta rich club introduces you to a community of world wild entrepreneurs. It will give you the opportunity to get in touch with masters of e-commerce already set-up in the real life business. Many IRL meet up events as online events will be organized between holders so that they can exchange their network, discuss marketing strategies and all subjects related to their business, so we can grow up and improve together.";
+    const aboutInfo = configData.about;
+   
     const AboutClass = {
         contianer: "p-40p px-80p",
         lContent: "w-1/2 flex px-20p",
@@ -12,16 +13,10 @@ const Abouts = () =>{
         subTitleContent: "text-white mb-20p mt-20p text-30p font-bold text-montserrat uppercase",
         subDetails : "text-avenir text-17p text-white my-20p",
     };
-    const aboutDetails = [{
-            content: "The Meta Rich is a collection of 5,000 generative Meta Rich with hundreds of elements inspired by Shiba universes."
-        },
-        {
-            content: "Each artwork is original, with its own color palette and creation. The objective was to make each Meta Rich unique in order to prioritize quality above quantity."
-        }
-    ];
+    const aboutDetails = aboutInfo.moreAbout;
     return (
         <div className = {AboutClass.contianer} id="About">
-            <p className= {AboutClass.about}>{aboutStr}</p>
+            <p className= {AboutClass.about}>{aboutInfo.mainAbout}</p>
             <div className="flex">
                 <div className={AboutClass.lContent}>
                     <img className="max-w-full" src={AboutImg} />

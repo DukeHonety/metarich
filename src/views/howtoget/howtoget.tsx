@@ -1,8 +1,8 @@
 import Getway from "./getWay";
-import Data from "../data.json"
+import configInfo from "../../config.json"
 
 const Howtoget = () =>{
-    const getWays = Data.metarich;
+    const getWays = configInfo.metarich;
     const classAry = {
         contain : "",
         title : "mb-5p mt-20p text-Mint text-36p font-bold text-center uppercase",

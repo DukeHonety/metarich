@@ -1,4 +1,138 @@
 {
-    "siteUrl": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6197f5e3dabccf3d8e3c61d2_Untitled-1.png"
-
+    "siteUrl": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6197f5e3dabccf3d8e3c61d2_Untitled-1.png",
+    "about":{
+        "mainAbout":  "Welcome to our community. Being part of the meta rich club introduces you to a community of world wild entrepreneurs. It will give you the opportunity to get in touch with masters of e-commerce already set-up in the real life business. Many IRL meet up events as online events will be organized between holders so that they can exchange their network, discuss marketing strategies and all subjects related to their business, so we can grow up and improve together.",
+        "moreAbout":[{
+                "content": "The Meta Rich is a collection of 5,000 generative Meta Rich with hundreds of elements inspired by Shiba universes."
+            },
+            {
+                "content": "Each artwork is original, with its own color palette and creation. The objective was to make each Meta Rich unique in order to prioritize quality above quantity."
+            }
+        ]
+    },
+    "roadMap":{
+        "roadString" :{
+            "title": "LAUNCH ROADMAP",
+            "description": "As we value our community and its creativity, our roadmap will be updated according to your comments and ideas."
+        },
+        "roadMaps" : [
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e469acaa16fe4c6d8d04f_1.svg",
+                "title": "CREATION OF THE META RICH CLUB",
+                "content": "A $50 000 fund is available to finance the creation, design and development of the community. In addition, 5% of OpenSea's fees are dedicated to this special fund ensuring the longevity of the Meta Rich Club."
+            },
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e469c6c56d1312e400c96_2.svg",
+                "title": "THE BEGINNING",
+                "content": "5,000 NFT Golden Tickets will be sold at the launch, NFT Golden Tickets will allow their holders to exchange them for an NFT Meta Rich Club a few days later."
+            },
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e46a16c56d14d6e400ca2_3.svg",
+                "title": "BENEFITS OF THE WEALTHY CLUB",
+                "content": "Our happy community will meet frequently at incredible Masterminds around the globe to share valuable business secrets and tips. At the same time, it will create a powerful network of successful entrepreneurs."
+            },
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e46a14eb8f6583c4d4151_4.svg",
+                "title": "THE INGENIOUS MARKETING",
+                "content": "The Meta Rich Club is planning a massive international media tour to promote the collection to millions of people. The goal is to create a huge hype around our community to make the floor price grow exponentially."
+            },
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e469e195d5cf6ebbf6b57_6.svg",
+                "title": "HIGHER SPEED",
+                "content": "A PVP video game is in discussion and will allow members, in addition to playing with unique and customized items, to recurrently get 50% of the revenue from this game."
+            },
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e469f50307d092c758da7_7.svg",
+                "title": "OUR CHOSEN ONES",
+                "content": "After sold out, $10,000 or equivalent will be distributed each day to a randomly selected holder, for a total of $500,000."
+            }
+        ]
+    },
+    "team":{
+        "teamString": {
+            "title": "OUR TEAM",
+            "description": "We are committed to delivering a cutting-edge experience and making this project a success. Our team is formed by the investors specialized in marketing , expert blockchain and extremely talented artist as well as all community managers."
+        },
+        "teams": [
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e70afc31d0f77d0f63d85_METARICHCLUB%20-%20KAIZ.jpg",
+                "title": "KAZE",
+                "detail": "Community Manager",
+                "link": "https://instagram.com/_clementkzr"
+            },
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619d1e99c86e5b94a7786e45_WhatsApp_Image_2021-11-23_at_12.49.04.jpeg",
+                "title": "Blvck",
+                "detail": "Co-Founder",
+                "link": ""
+            },
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61abfa9690025ab2750473c2_METARICHCLUB%20-%20CASA.jpg",
+                "title": "Maverick",
+                "detail": "NFT Expert",
+                "link": "https://www.instagram.com/valentin_nathann"
+            },
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61abfadab17a3a79da9f555a_METASERGIO.jpg",
+                "title": "Sergio",
+                "detail": "Blockchain Expert",
+                "link": "https://instagram.com/selom.kg"
+            },
+            {
+                "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e9736fe0b497070d953bf_PHOTO-2021-11-24-22-24-18.jpg",
+                "title": "Yudabento",
+                "detail": "Artist",
+                "link": "https://instagram.com/yudabento"
+            }
+        ]
+    },
+    "metarich": [ 
+        {
+            "title": "DOWNLOAD METAMASK",
+            "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61b909e9df48e34b2f2182ad_metamask.14d6da9e.gif",
+            "detail": "The Chrome Metamask extension will allow you to make purchases with Ethereum. If you are on mobile, please use the Metamask app..",
+            "btnLink": "https://metamask.io/",
+            "btnName": "METAMASK"
+        },
+        {
+            "title": "ADD SOME ETH",
+            "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61b90f5f356a8444dd26b297_ethereum.3d198f77.gif",
+            "detail": "You can purchase Ethereum through your Metamask wallet using Wyre or send Ethereum from an exchange like Coinbase.",
+            "btnLink": "https://www.coinbase.com/de/",
+            "btnName": "COINBASE"
+        },
+        {
+            "title": "MINT A META RICH",
+            "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61ba418d402e301abecb15ad_Shouriken%2022(1).gif",
+            "detail": "Connect your Metamask to our website. Once connected, you will be able to mint your Meta Rich and approve the transaction.",
+            "btnLink": "/mint",
+            "btnName": "MINT"
+        }
+    ],
+    "questions":[
+        {
+            "title": "WHAT IS THE META RICH CLUB?",
+            "detail": "The META RICH CLUB is a collection of 5,000 Non Fongible Token going absolutely bonkers within the Ethereum block chain."
+        },
+        {
+            "title": "HOW MUCH WILL IT COST TO MINT?",
+            "detail": "The price of the mint is 0.065 ETH."
+        },
+        {
+            "title": "WHEN WILL MINTING BE AVAILABLE?",
+            "detail": "The Meta Rich reveal occurred on the January the 2."
+        },
+        {
+            "title": "HOW MANY CAN WE MINT PER WALLET?",
+            "detail": "10 Per Wallet. The amount of royalties was fixed at 7.5% to finance the NFT Club's projects. We have the ambition to organize multiple events around the world in order to strenghten the community and build a network of entrepreneurs and investors with the same mindset and common interests. The funds collected will benefit the holders. This percentage can decrease over time."
+        },
+        {
+            "title": "How can i use my nft?",
+            "detail": "You will be able to use your NFT as an avatar in the metaverse."
+        },
+        {
+            "title": "WHAT IS THE METAVERSE?",
+            "detail": "The Metaverse refers to a shared virtual experience where land, avatars and names can be bought and sold, often using cryptocurrency. The future phases in the Nft club's roadmap will allow you to join this Metaverse using the assets you own."
+        }
+    ]
 }
