@@ -10,7 +10,7 @@ const PageHeader = () => {
         <div className={classAry.contain}>
             <a href="" className={classAry.siteUrl}>
                 {/* <img src={siteImg} width="393"/> */}
-                <h1 className="text-white">RICHYSHIB</h1> 
+                <h1 className="text-white text-40p font-bold font-rotobo">RICHYSHIB</h1> 
             </a>
             <MenuBar />
         </div>
