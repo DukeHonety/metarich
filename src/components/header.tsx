@@ -3,12 +3,15 @@ import configData from "../config.json";
 const PageHeader = () => {
     const classAry = {
         contain: "fixed top-0 w-full p-20p pr-60p pl-60p bg-black z-40",
-        siteUrl: "relative float-left top-10p",
+        siteUrl: "relative float-left top-10p cursor-pointer",
     }
-    const siteUrl = configData.siteUrl;
+    const siteImg = configData.siteImg;
     return (
         <div className={classAry.contain}>
-            <a className={classAry.siteUrl}><img src={siteUrl} width="393"/></a>
+            <a href="" className={classAry.siteUrl}>
+                {/* <img src={siteImg} width="393"/> */}
+                <h1 className="text-white">RICHYSHIB</h1> 
+            </a>
             <MenuBar />
         </div>
     )
