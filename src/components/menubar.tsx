@@ -1,5 +1,6 @@
 import React from "react";
-import routes from "../routes";
+import routes from "../routes/routes.json"
+import linkUrls from "../routes/links.json"
 
 const MenuBar = () =>{
   const style:string = "inline-block text-white p-20p text-20p hover:text-Mint";
@@ -28,7 +29,7 @@ const MenuBar = () =>{
       <div className="relative float-right">
         <ul className="inline-block">
           {
-            routes.map((route,key)=>{
+            routes.map((route:any, key:number)=>{
                 return <li className={style} key={key}><a href={route.path}>{route.name}</a></li>;
             })
           }

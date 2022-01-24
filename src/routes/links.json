@@ -1,0 +1,23 @@
+[
+    {
+        "name": "",
+        "url": "https://www.instagram.com/metarichnft/",
+        "content": "",
+        "class": "relative top-5p inline-block bg-no-repeat bg-linkBackPos bg-20pauto rounded-full w-30p h-30p mr-5p ml-5p bg-instagram",
+        "img": ""
+    },
+    {
+        "name": "",
+        "url": "http://www.twitter.com/metarichnft",
+        "content": "",
+        "class": "relative top-5p inline-block bg-no-repeat bg-linkBackPos bg-20pauto rounded-full w-30p h-30p mr-5p ml-5p bg-twitter",
+        "img": ""
+    },
+    {
+        "name": "",
+        "url": "https://discord.gg/cJJd8wNvCk",
+        "content": "",
+        "class": "relative top-5p inline-block bg-no-repeat bg-linkBackPos bg-20pauto rounded-full w-30p h-30p mr-5p ml-5p bg-discord",
+        "img": ""
+    }
+]

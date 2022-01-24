@@ -1,4 +1,6 @@
-import routes from "../routes";
+import routes from "../routes/routes.json"
+import linkUrls from "../routes/links.json"
+
 const PageFooter = () => {
     const footClass={
         contain: "w-full max-w-mintDiv my-0 mx-auto px-16p text-center pb-20p",
@@ -6,27 +8,7 @@ const PageFooter = () => {
         menuItem: "mx-10p pl-0 text-white",
         imgBtn: "w-150p max-w-full align-middle inline-block"
     }
-    const linkUrls = [
-        {
-            name: "",
-            url: "https://www.instagram.com/metarichnft/",
-            content: "",
-            class: "relative top-5p inline-block bg-no-repeat bg-linkBackPos bg-20pauto rounded-full w-30p h-30p mr-5p ml-5p bg-instagram",
-            img: ""
-        },
-        {
-            name: "",
-            url: "http://www.twitter.com/metarichnft",
-            content: "",
-            class: "relative top-5p inline-block bg-no-repeat bg-linkBackPos bg-20pauto rounded-full w-30p h-30p mr-5p ml-5p bg-twitter",
-        },
-        {
-            name: "",
-            url: "https://discord.gg/cJJd8wNvCk",
-            content: "",
-            class: "relative top-5p inline-block bg-no-repeat bg-linkBackPos bg-20pauto rounded-full w-30p h-30p mr-5p ml-5p bg-discord",
-        }
-    ];
+    
     return (
         <div className={footClass.contain}>
             <div className={footClass.menuBar} key="0">
