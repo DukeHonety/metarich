@@ -6,6 +6,10 @@ import PageHeader from "../components/header";
 import PageFooter from "../components/footer";
 import MintPage from "./mintDiv/mintDiv";
 import Howtoget from "./howtoget/howtoget";
+import PressAboutUs from "./pressAboutUs";
+import AskQuestions from "./questions";
+import WaitForUs from "./waitingfor";
+
 const Richyshib = () =>{
     return (
         <>
@@ -17,6 +21,9 @@ const Richyshib = () =>{
                 <Rarities />
                 <Teams />
                 <Howtoget />
+                <PressAboutUs />
+                <AskQuestions />
+                <WaitForUs />
                 <PageFooter />
             </div>
         </>
