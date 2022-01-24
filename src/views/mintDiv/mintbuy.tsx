@@ -2,7 +2,7 @@ import {useState} from "react";
 
 const MintBuy = () => {
 
-    const [buycount,setBuyCount] = useState(0);
+    const [buycount,setBuyCount] = useState(2);
 
     const decreaseBycount = () => {
         let value:number = buycount;

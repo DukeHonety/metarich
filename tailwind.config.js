@@ -37,6 +37,7 @@ module.exports = {
       'instagram': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d8433707d7be9_instagram.svg"), linear-gradient(180deg, #fff, #fff)',
       'twitter': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d84f7727d7bed_twitter%20(1).svg"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff))',
       'discord': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61d84f5f4fa41a1dde199625_Discord-Logo-Color.svg"), linear-gradient(180deg, #fff, #fff)',
+      'telegram': 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpGfDNjh7taSV8G8f_FrXEqrAledar3Ew0ADJ_IhjZRw&s"), linear-gradient(180deg, #fff, #fff)',
     },
     backgroundPosition:{
       'linkBackPos': '50% 50%, 0px 0px',

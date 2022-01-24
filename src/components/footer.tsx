@@ -27,7 +27,7 @@ const PageFooter = () => {
                 })
             }
             </div>
-            <p className="mt-0 text-Mint text-15p font-bold">© 2021 META RICH CLUB. All rights reserved</p>
+            <p className="mt-0 text-Mint text-15p font-bold">© 2022 RICHYSHIB. All rights reserved</p>
         </div>
     )
 };
