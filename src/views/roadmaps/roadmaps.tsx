@@ -38,8 +38,9 @@ const Roadmaps = () =>{
     useEffect(() => {
         const roadMapTop = roadMapRef.current?.getBoundingClientRect().top || 0;
         const roadMapHeight = roadMapRef.current?.getBoundingClientRect().height == undefined ? 0 : roadMapRef.current?.getBoundingClientRect().height;
-        if (roadMapTop < 0) { // scroll down the ref div
-            let newRoadMapTop = Math.abs(roadMapTop);
+        console.log(roadMapTop);
+        if (roadMapTop - 270 < 0) { // scroll down the ref div
+            let newRoadMapTop = Math.abs(roadMapTop - 270);
             let heightSum = 0;
             for (let index = 1; index < childrenHeights.length; index ++) {
                 if (newRoadMapTop >= heightSum) {
@@ -47,7 +48,6 @@ const Roadmaps = () =>{
                     initStyles[0] = true;
                     for (let i = 0; i < index; i++)
                         initStyles[i] = true;
-                    console.log(initStyles);
                     setOStyle(initStyles);
                 }
                 heightSum += childrenHeights[index];

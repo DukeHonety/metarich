@@ -26,7 +26,7 @@ const Abouts = () =>{
                         <p className={AboutClass.subTitle}>ABOUT</p>
                         <div className={AboutClass.subTitleLine}></div>
                     </div>
-                    <h1 className={AboutClass.subTitleContent}>5,000 UNIQUE META RICH WHO NEED DRIVERS</h1>
+                    <h1 className={AboutClass.subTitleContent}>5,000 UNIQUE RICHYSHIB WHO NEED DRIVERS</h1>
                     {
                         aboutDetails.map((detail,key)=>{
                             return <p className={AboutClass.subDetails} key={key}>{detail.content}</p>;

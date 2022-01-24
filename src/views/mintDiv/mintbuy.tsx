@@ -26,7 +26,7 @@ const MintBuy = () => {
     };
     return (
         <div className="pl-50p text-left mt-80p">
-            <h1 className={mintClass.mintTitle}>META RICH</h1>
+            <h1 className={mintClass.mintTitle}>RICHYSHIB</h1>
             <p className="text-white text-12p mb-2p">Pick the amount of <span className="text-Mint">NFT's</span> you would like to mint.</p>
             <span className={mintClass.minuse} onClick={decreaseBycount}>-</span>
             <input className={mintClass.input} type="text" value={buycount}/>

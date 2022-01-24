@@ -1,12 +1,12 @@
 {
     "siteImg": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6197f5e3dabccf3d8e3c61d2_Untitled-1.png",
     "about":{
-        "mainAbout":  "Welcome to our community. Being part of the meta rich club introduces you to a community of world wild entrepreneurs. It will give you the opportunity to get in touch with masters of e-commerce already set-up in the real life business. Many IRL meet up events as online events will be organized between holders so that they can exchange their network, discuss marketing strategies and all subjects related to their business, so we can grow up and improve together.",
+        "mainAbout":  "Welcome to our community. Being part of the RICHYSHIB introduces you to a community of world wild entrepreneurs. It will give you the opportunity to get in touch with masters of e-commerce already set-up in the real life business. Many IRL meet up events as online events will be organized between holders so that they can exchange their network, discuss marketing strategies and all subjects related to their business, so we can grow up and improve together.",
         "moreAbout":[{
-                "content": "The Meta Rich is a collection of 5,000 generative Meta Rich with hundreds of elements inspired by Shiba universes."
+                "content": "The RICHYSHIB is a collection of 5,000 generative RICHYSHIB with hundreds of elements inspired by Shiba universes."
             },
             {
-                "content": "Each artwork is original, with its own color palette and creation. The objective was to make each Meta Rich unique in order to prioritize quality above quantity."
+                "content": "Each artwork is original, with its own color palette and creation. The objective was to make each RICHYSHIB unique in order to prioritize quality above quantity."
             }
         ]
     },
@@ -18,23 +18,23 @@
         "roadMaps" : [
             {
                 "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e469acaa16fe4c6d8d04f_1.svg",
-                "title": "CREATION OF THE META RICH CLUB",
-                "content": "A $50 000 fund is available to finance the creation, design and development of the community. In addition, 5% of OpenSea's fees are dedicated to this special fund ensuring the longevity of the Meta Rich Club."
+                "title": "CREATION OF THE RICHYSHIB",
+                "content": "A $50 000 fund is available to finance the creation, design and development of the community. In addition, 5% of OpenSea's fees are dedicated to this special fund ensuring the longevity of the RICHYSHIB."
             },
             {
                 "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e469c6c56d1312e400c96_2.svg",
                 "title": "THE BEGINNING",
-                "content": "5,000 NFT Golden Tickets will be sold at the launch, NFT Golden Tickets will allow their holders to exchange them for an NFT Meta Rich Club a few days later."
+                "content": "5,000 NFT Golden Tickets will be sold at the launch, NFT Golden Tickets will allow their holders to exchange them for an NFT RICHYSHIB a few days later."
             },
             {
                 "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e46a16c56d14d6e400ca2_3.svg",
-                "title": "BENEFITS OF THE WEALTHY CLUB",
+                "title": "BENEFITS OF THE WEALTHY",
                 "content": "Our happy community will meet frequently at incredible Masterminds around the globe to share valuable business secrets and tips. At the same time, it will create a powerful network of successful entrepreneurs."
             },
             {
                 "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e46a14eb8f6583c4d4151_4.svg",
                 "title": "THE INGENIOUS MARKETING",
-                "content": "The Meta Rich Club is planning a massive international media tour to promote the collection to millions of people. The goal is to create a huge hype around our community to make the floor price grow exponentially."
+                "content": "The RICHYSHIB is planning a massive international media tour to promote the collection to millions of people. The goal is to create a huge hype around our community to make the floor price grow exponentially."
             },
             {
                 "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/619e469e195d5cf6ebbf6b57_6.svg",
@@ -102,17 +102,17 @@
             "btnName": "COINBASE"
         },
         {
-            "title": "MINT A META RICH",
+            "title": "MINT A RICHYSHIB",
             "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61ba418d402e301abecb15ad_Shouriken%2022(1).gif",
-            "detail": "Connect your Metamask to our website. Once connected, you will be able to mint your Meta Rich and approve the transaction.",
+            "detail": "Connect your Metamask to our website. Once connected, you will be able to mint your RICHYSHIB and approve the transaction.",
             "btnLink": "/mint",
             "btnName": "MINT"
         }
     ],
     "questions":[
         {
-            "title": "WHAT IS THE META RICH CLUB?",
-            "detail": "The META RICH CLUB is a collection of 5,000 Non Fongible Token going absolutely bonkers within the Ethereum block chain."
+            "title": "WHAT IS THE RICHYSHIB?",
+            "detail": "The RICHYSHIB is a collection of 5,000 Non Fongible Token going absolutely bonkers within the Ethereum block chain."
         },
         {
             "title": "HOW MUCH WILL IT COST TO MINT?",
@@ -120,7 +120,7 @@
         },
         {
             "title": "WHEN WILL MINTING BE AVAILABLE?",
-            "detail": "The Meta Rich reveal occurred on the January the 2."
+            "detail": "The RICHYSHIB reveal occurred on the January the 2."
         },
         {
             "title": "HOW MANY CAN WE MINT PER WALLET?",
