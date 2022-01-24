@@ -33,7 +33,8 @@ module.exports = {
       '960p': '960px',
       '2p' : '2px',
       '55%' : '55%',
-      '1/5': "10%",
+      '1/10': "10%",
+      ''
     },
     backgroundImage:{
       'instagram': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d8433707d7be9_instagram.svg"), linear-gradient(180deg, #fff, #fff)',
