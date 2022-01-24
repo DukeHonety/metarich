@@ -1,8 +1,26 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 import TeamShow from "./teamShow";
 import configInfo from "../../config.json";
-
+const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
 const Teams = () =>{
     const teamClass={
         contain: "",
@@ -19,7 +37,7 @@ const Teams = () =>{
             <h2 className={teamClass.title}>{teamString.title}</h2>
             <p className={teamClass.description}>{teamString.description}</p>
             <div>
-                <Carousel>
+                <Carousel responsive={responsive} autoPlaySpeed={1000} autoPlay infinite>
                     {
                     teams.map( (team:any, key:number) => {
                         return <TeamShow info={team} key={key} num={key}/>;
