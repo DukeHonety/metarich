@@ -1,8 +1,14 @@
 import MenuBar from "./menubar";
+import configData from "../config.json";
 const PageHeader = () => {
+    const classAry = {
+        contain: "fixed top-0 w-full p-20p pr-60p pl-60p bg-black z-40",
+        siteUrl: "relative float-left top-10p",
+    }
+    const siteUrl = configData.siteUrl;
     return (
-        <div className="fixed top-0 w-full p-20p pr-60p pl-60p bg-black z-40">
-            <a className="relative float-left top-10p"><img src="https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6197f5e3dabccf3d8e3c61d2_Untitled-1.png" loading="lazy" width="393"/></a>
+        <div className={classAry.contain}>
+            <a className={classAry.siteUrl}><img src={siteUrl} width="393"/></a>
             <MenuBar />
         </div>
     )
