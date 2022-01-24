@@ -7,7 +7,7 @@ import PageFooter from "../components/footer";
 import MintPage from "./mintDiv/mintDiv";
 import Howtoget from "./howtoget/howtoget";
 import PressAboutUs from "./pressAboutUs";
-import AskQuestions from "./questions";
+import AskQuestions from "./questions/questions";
 import WaitForUs from "./waitingfor";
 
 const Richyshib = () =>{

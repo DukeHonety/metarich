@@ -1,5 +1,5 @@
 import Getway from "./getWay";
-import Data from "./data.json"
+import Data from "../data.json"
 
 const Howtoget = () =>{
     const getWays = Data.metarich;

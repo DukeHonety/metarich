@@ -15,6 +15,7 @@ module.exports = {
         "rarityMenuLine": "#8f8e8e",
         "rarityPersonRate": "#a3a3a3",
         "getWay" : "#585858",
+        '999' : "#999999"
       },
     },
     fontFamily:{
