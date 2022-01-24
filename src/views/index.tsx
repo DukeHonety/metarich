@@ -9,6 +9,7 @@ import Howtoget from "./howtoget/howtoget";
 import PressAboutUs from "./pressAboutUs";
 import AskQuestions from "./questions/questions";
 import WaitForUs from "./waitingfor";
+import WarnBeware from "./warnBeware";
 
 const Richyshib = () =>{
     return (
@@ -21,6 +22,7 @@ const Richyshib = () =>{
                 <Rarities />
                 <Teams />
                 <Howtoget />
+                <WarnBeware />
                 <PressAboutUs />
                 <AskQuestions />
                 <WaitForUs />
