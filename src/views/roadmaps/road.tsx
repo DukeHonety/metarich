@@ -14,6 +14,7 @@ const RoadStepImg = [Step1Img, Step2Img, Step3Img, Step4Img, Step5Img, Step6Img]
 const Road = (props:any) => {
     const data = props.data;
     const num = props.num;
+    const oStyle = props.opacity == true ? " opacity-100" : " opacity-10";
     const roadClass = {
         contain: "flex mb-40p items-center z-2",
         step: "flex min-w-stepMin1 py-16p items-center",
@@ -28,9 +29,9 @@ const Road = (props:any) => {
     return (
         <div className={roadClass.contain} key={num}>
             <div className={roadClass.step} key="1">
-                <img className={roadClass.stepImg} src={RoadStepImg[num]}/>
+                <img className={roadClass.stepImg + oStyle} src={RoadStepImg[num]}/>
             </div>
-            <div className={roadClass.content} key="2">
+            <div className={roadClass.content + oStyle} key="2">
                 <div className={roadClass.imgDiv} key="1">
                     <img className={roadClass.img} src={data.img}/>
                 </div>

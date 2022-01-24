@@ -14,8 +14,6 @@ module.exports = {
         "rarityMenuDisable": "#b6b6b6",
         "rarityMenuLine": "#8f8e8e",
         "rarityPersonRate": "#a3a3a3",
-        "getWay" : "#585858",
-        '999' : "#999999"
       },
     },
     fontFamily:{
@@ -34,12 +32,10 @@ module.exports = {
       '960p': '960px',
       '2p' : '2px',
       '55%' : '55%',
-      '1/10': "10%",
-      '3/10': "30%",
     },
     backgroundImage:{
       'instagram': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d8433707d7be9_instagram.svg"), linear-gradient(180deg, #fff, #fff)',
-      'twitter': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d84f7727d7bed_twitter%20(1).svg").svg), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff))',
+      'twitter': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6190a1f04e2d84f7727d7bed_twitter%20(1).svg"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff))',
       'discord': 'url("https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61d84f5f4fa41a1dde199625_Discord-Logo-Color.svg"), linear-gradient(180deg, #fff, #fff)',
     },
     backgroundPosition:{
@@ -47,6 +43,10 @@ module.exports = {
     },
     backgroundSize:{
       '20pauto':'20px,auto',
+    },
+    borderRadius:{
+      '16p' : '16px',
+      '20p' : '20px',
     },
     maxWidth:{
       mintDiv: "960px",
@@ -61,10 +61,7 @@ module.exports = {
     },
     borderRadius:{
       full: "100%",
-      '3p': '3px',
       '16p': "16px",
-      '20p' : '20px',
-      '50p' : '50px',
     }
   },
   plugins: [],
