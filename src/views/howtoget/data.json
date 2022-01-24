@@ -1,0 +1,24 @@
+{
+    "metarich": [ {
+            "title": "DOWNLOAD METAMASK",
+            "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61b909e9df48e34b2f2182ad_metamask.14d6da9e.gif",
+            "detail": "The Chrome Metamask extension will allow you to make purchases with Ethereum. If you are on mobile, please use the Metamask app..",
+            "btnLink": "https://metamask.io/",
+            "btnName": "METAMASK"
+        },
+        {
+            "title": "ADD SOME ETH",
+            "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61b90f5f356a8444dd26b297_ethereum.3d198f77.gif",
+            "detail": "You can purchase Ethereum through your Metamask wallet using Wyre or send Ethereum from an exchange like Coinbase.",
+            "btnLink": "https://www.coinbase.com/de/",
+            "btnName": "COINBASE"
+        },
+        {
+            "title": "MINT A META RICH",
+            "img": "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61ba418d402e301abecb15ad_Shouriken%2022(1).gif",
+            "detail": "Connect your Metamask to our website. Once connected, you will be able to mint your Meta Rich and approve the transaction.",
+            "btnLink": "/mint",
+            "btnName": "MINT"
+        }
+    ]
+}

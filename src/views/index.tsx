@@ -5,7 +5,7 @@ import Teams from "./teams/teams";
 import PageHeader from "../components/header";
 import PageFooter from "../components/footer";
 import MintPage from "./mintDiv/mintDiv";
-
+import Howtoget from "./howtoget/howtoget";
 const Richyshib = () =>{
     return (
         <>
@@ -16,6 +16,7 @@ const Richyshib = () =>{
                 <Roadmaps />
                 <Rarities />
                 <Teams />
+                <Howtoget />
                 <PageFooter />
             </div>
         </>
