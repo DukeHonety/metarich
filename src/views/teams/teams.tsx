@@ -43,7 +43,7 @@ const Teams = () =>{
     //     return <TeamShow info={team} key={key} num={key}/>;
     // }));
     return (
-        <div className={teamClass.contain} id="team">
+        <div className={teamClass.contain} id="TeamId">
             <h2 className={teamClass.title}>{teamString.title}</h2>
             <p className={teamClass.description}>{teamString.description}</p>
             <div className="w-375p mx-auto">
