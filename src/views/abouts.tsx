@@ -19,7 +19,7 @@ const Abouts = () =>{
             <p className= {AboutClass.about}>{aboutInfo.mainAbout}</p>
             <div className="flex">
                 <div className={AboutClass.lContent}>
-                    <img className="max-w-full" src={AboutImg} />
+                    <img className="max-w-full w-full" src={AboutImg} />
                 </div>  
                 <div className={AboutClass.rContent}>
                     <div className="flex w-full items-center">

@@ -1,6 +1,6 @@
 import routes from "../routes/routes.json"
 import linkUrls from "../routes/links.json"
-
+import sitLogo from "../assets/images/logo.png";
 const PageFooter = () => {
     const footClass={
         contain: "w-full max-w-mintDiv my-0 mx-auto px-16p text-center pb-20p",
@@ -19,7 +19,7 @@ const PageFooter = () => {
                     })
                 }
             </div>
-            <img className={footClass.imgBtn} src="https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/6197f5e3dabccf3d8e3c61d2_Untitled-1.png" />
+            <img className={footClass.imgBtn} src={sitLogo} />
             <div key="1" className="py-20p">
             {
                 linkUrls.map( (link,key) => {
