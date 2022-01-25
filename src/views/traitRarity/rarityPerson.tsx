@@ -1,3 +1,4 @@
+import DefaultImg from "../../assets/images/default.png";
 const RarityPerson = (props:any) => {
     const data = props.manData;
     const num = props.num;
@@ -12,7 +13,7 @@ const RarityPerson = (props:any) => {
     return (
         <div className={personClass.contain} key={num}>
             <div className={personClass.imgDiv} key="0">
-                <img className={personClass.img} src={data.image} />
+                <img className={personClass.img} src={DefaultImg} />
             </div>
             <div className="py-10p" key="1">
                 <h1 className={personClass.title}>{data.title}</h1>

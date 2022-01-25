@@ -1,6 +1,6 @@
 import MenuBar from "./menubar";
 import configData from "../config.json";
-import Sitelogo from "../assets/images/log.png";
+import Sitelogo from "../assets/images/logo.png";
 
 const PageHeader = () => {
     const classAry = {
