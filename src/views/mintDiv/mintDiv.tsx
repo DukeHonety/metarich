@@ -13,7 +13,7 @@ const MintPage = () =>{
         <h1 className = {classAry.description}>As promised, we reached 200.000 members</h1>
         <div className="flex">
           <div className="w-1/2 flex">
-            <img src={MintImage}/>
+            <img className="z-10" src={MintImage}/>
           </div>
           <div className="w-1/2 flex">
             <MintBuy />

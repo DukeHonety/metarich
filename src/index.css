@@ -16,3 +16,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.particles-js-canvas-el{
+  position: fixed;
+  top: 0px;
+  z-index: 0;
+}
