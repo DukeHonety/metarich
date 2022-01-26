@@ -12,7 +12,7 @@ const RarityPerson = (props:any) => {
     return (
         <div className={personClass.contain} key={num}>
             <div className={personClass.imgDiv} key="0">
-                <img className={personClass.img} src={DefaultImg} />
+                <img className={personClass.img} src={data.image} />
             </div>
             <div className="py-10p" key="1">
                 <h1 className={personClass.title}>{data.title}</h1>

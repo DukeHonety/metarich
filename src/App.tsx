@@ -16,8 +16,8 @@ function App() {
     <BrowserRouter>
     <div id="particles">
       <Routes>
-        <Route path="/" element={<div />} />
-        <Route path="/valid" element={<MintAgain />} />
+        <Route path="/" element={<Richyshib />} />
+        <Route path="valid" element={<MintAgain />} />
       </Routes>
     </div>
     </BrowserRouter>
