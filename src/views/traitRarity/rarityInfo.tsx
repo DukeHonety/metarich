@@ -97,7 +97,22 @@ const RarityData:any = {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61bef6fd65d458a50c69755d_5.png",
             title: "GOLD",
             rate: "4%"
-        }
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1761fcc90efb94999c05c_11.png",
+            title: "CANDY",
+            rate: "3%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1761fd1a68a057b6fbd9f_3.png",
+            title: "DARK",
+            rate: "2%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17621cadcf18d13c37330_5.png",
+            title: "GALAXY",
+            rate: "1%"
+        },
     ],
     Clothes: [
         {
@@ -126,9 +141,34 @@ const RarityData:any = {
             rate: "5%"
         },
         {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bb1a6fe6f77edfa824d_26.png",
+            title: "HOODIE",
+            rate: "5%"
+        },
+        {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bca0d051b3371fec40a_8.png",
             title: "CHICAGO",
             rate: "5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17ba1628de554197091a6_23.png",
+            title: "HOODIE B",
+            rate: "4.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bd129604d54db9c9015_1.png",
+            title: "HOODIE R",
+            rate: "4%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bb9cadcf17ec4c38986_5.png",
+            title: "HOODIE P",
+            rate: "4%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61be2baef8dafead0ca8848a_15.png",
+            title: "RASTA",
+            rate: "4%"
         },
         {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17ba809cce5b4a22ec849_15.png",
@@ -136,8 +176,18 @@ const RarityData:any = {
             rate: "4%"
         },
         {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bc42d9af0d0fe3f4e1f_14.png",
+            title: "FCK RICH",
+            rate: "4%"
+        },
+        {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bb4b0730a313f1fef53_3.png",
             title: "GANG GANG",
+            rate: "3.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bb295241b3ca2bbfe9d_9.png",
+            title: "PRISON",
             rate: "3.5%"
         },
         {
@@ -156,8 +206,38 @@ const RarityData:any = {
             rate: "3.5%"
         },
         {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bac6a7dd8c360129912_11.png",
+            title: "PINK SUIT",
+            rate: "2.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bbfcc90efd0be99e3ed_20.png",
+            title: "BLACK FUR",
+            rate: "2.5%"
+        },
+        {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17be1b03b0f1a76e2980e_18.png",
             title: "G FUR",
+            rate: "2.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bd8b0730a57bb1ff124_2.png",
+            title: "PINK FUR",
+            rate: "2.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17be1b03b0f1a76e2980e_18.png",
+            title: "G FUR",
+            rate: "2.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bcaa6fe6f492bfa8348_12.png",
+            title: "LEATHER",
+            rate: "2.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c17bc6e008042906d03464_16.png",
+            title: "TURTLE NECT",
             rate: "2.5%"
         },
         {
@@ -193,20 +273,85 @@ const RarityData:any = {
             rate: "9%"
         },
         {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fceb1765f56ac2f39a1_4.png",
+            title: "3D",
+            rate: "8%"
+        },
+        {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fc60d051b5cd6ff2f1e_1.png",
             title: "BERSACE",
             rate: "8%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fa8828563014832e810_9.png",
+            title: "ORBIT EYE",
+            rate: "7%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fc3c80508051a8f64f2_6.png",
+            title: "STONED",
+            rate: "6.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fbb8ca11aff918aa2e3_5.png",
+            title: "LASER",
+            rate: "6%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fb2ff2755109cd51bc1_7.png",
+            title: "THUG",
+            rate: "5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fb6e008042b59d0c563_11.png",
+            title: "$ GLASSES",
+            rate: "5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fd2ea7f6c7307f907dd_12.png",
+            title: "BTC GLASSES",
+            rate: "4.5%"
         },
         {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fbfa4d83f731c91961c_13.png",
             title: "CYCLOPE",
             rate: "4%"
         },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61be2c11d742df6c00983446_6.png",
+            title: "WINK",
+            rate: "3.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fbbb0730aa530206da4_14.png",
+            title: "FAINTING",
+            rate: "2.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fb76a7dd879a6130a2e_16.png",
+            title: "PIRATE",
+            rate: "2.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fd10d051b7bc4ff2f25_2.png",
+            title: "BLACK",
+            rate: "2%"
+        },
     ],
     Hat: [
         {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c18fa91774e2863e259b3a_15.png",
+            title: "NONE",
+            rate: "28%"
+        },
+        {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c195625189173e1421ef3e_3.png",
             title: "WHITE HAT",
+            rate: "10%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c19551d198bd788df9c0a6_5.png",
+            title: "BLACK CAP",
             rate: "10%"
         },
         {
@@ -215,14 +360,49 @@ const RarityData:any = {
             rate: "7.5%"
         },
         {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1955fbc8a9d727ace2307_4.png",
+            title: "ANGEL",
+            rate: "6.5%"
+        },
+        {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1954cb03b0f6967e3195c_11.png",
             title: "CESAR",
             rate: "6.5%"
         },
         {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61be2c51b2f1c6e6aca97b15_2.png",
+            title: "MEXICAN",
+            rate: "6%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c19551bc8a9deb15ce214c_1.png",
+            title: "CAPTAIN",
+            rate: "5.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c19560df617d4a75fa1aa2_6.png",
+            title: "SANGOKU",
+            rate: "5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1955495393019562b22db_8.png",
+            title: "LOCKS",
+            rate: "4.5%"
+        },
+        {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c19564dcac3e24d3ccb1a5_9.png",
             title: "ARAB CAP",
             rate: "4.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1955b9539306ac92b22e7_10.png",
+            title: "CROWN",
+            rate: "4%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1955cfe9ca8c99dd06089_7.png",
+            title: "GANG SCARF",
+            rate: "3%"
         },
     ],
     Necklace: [
@@ -308,6 +488,21 @@ const RarityData:any = {
             title: "G BONE",
             rate: "5%"
         },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c19dd2d2f33d3bbab21ade_2.png",
+            title: "D BONE",
+            rate: "3.5%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c19dc72638a0193bdf4e19_7.png",
+            title: "KNIFE",
+            rate: "2%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c19dc7f5174eb1e945b3f0_6.png",
+            title: "KNIFE",
+            rate: "1%"
+        },
     ],
     Backpack: [
         {
@@ -330,11 +525,25 @@ const RarityData:any = {
             title: "FALCON",
             rate: "9%"
         },
-
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1a0321b91c1e7c1ca0580_7.png",
+            title: "AWP",
+            rate: "8%"
+        },
         {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1a032e94735939e3464b3_4.png",
             title: "AK47",
             rate: "7%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1a03bad35eb6c59903093_2.png",
+            title: "ANGEL",
+            rate: "4%"
+        },
+        {
+            image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1a0383626fe03c3c2d658_5.png",
+            title: "DEMON",
+            rate: "4%"
         },
         {
             image: "https://uploads-ssl.webflow.com/6190a1f04e2d84fef77d7bdd/61c1a03ef5f337544b664012_6.png",
