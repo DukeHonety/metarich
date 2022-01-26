@@ -1,5 +1,5 @@
 import {useState} from "react";
-import ConfigInfo from "../../config.json";
+import configInfo from "../../config.json";
 
 declare global {
     interface Window {
@@ -12,7 +12,7 @@ declare global {
     }
   }
 const MintBuy = () => {
-    const mintData = ConfigInfo.mint;
+    const mintData = configInfo.mint;
     const [buycount,setBuyCount] = useState(2);
     const [walletInfo, setWalletInfo] = useState(mintData.mintNormal);
     const decreaseBycount = () => {
@@ -31,9 +31,11 @@ const MintBuy = () => {
         const {ethereum} = window;
         if ( !ethereum){
             setWalletInfo(mintData.notMetamasklink);
+            window.history.back();
+            window.location.href = "https://metamask.io/download/";
             return;
         }
-        console.log("Wallet exists! We're ready to go!");
+        setWalletInfo(mintData.metamasklink);
     }
     const mintClass = {
         mintTitle: "m-20p mb-30p text-montserrat text-38p leading-44p font-bold text-white",
