@@ -5,7 +5,7 @@ const Question = (props:any) =>{
     const classAry = {
         headDiv:"flex py-20p justify-between items-center text-20p font-semibold",
         title: "mr-10p text-white uppercase text-20p font-roboto",
-        detail: "mb-0 py-14p font-montserrat text-18px font-normal text-999",
+        detail: "mb-0 py-14p font-montserrat text-18px font-normal text-999 text-white",
         btn: "bg-white max-w-full inline-block",
         contain: "px-40p cursor-pointer"
     }

@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 import './index.css';
 import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 import Richyshib from './views';
+import MintAgain from './views/mintAgain';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Richyshib></Richyshib>
+    <BrowserRouter>
+    <div id="particles">
+      <Routes>
+        <Route path="/" element={<Richyshib />} />
+        <Route path="/valid" element={<MintAgain />} />
+      </Routes>
+    </div>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
