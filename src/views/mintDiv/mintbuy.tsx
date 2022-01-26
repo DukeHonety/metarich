@@ -1,4 +1,6 @@
 import {useState} from "react";
+import ConfigInfo from "../../config.json";
+
 declare global {
     interface Window {
       ethereum: {
@@ -10,9 +12,9 @@ declare global {
     }
   }
 const MintBuy = () => {
-
+    const mintData = ConfigInfo.mint;
     const [buycount,setBuyCount] = useState(2);
-
+    const [walletInfo, setWalletInfo] = useState(mintData.mintNormal);
     const decreaseBycount = () => {
         let value:number = buycount;
         value--;
@@ -28,7 +30,7 @@ const MintBuy = () => {
     const checkWalletIsConnected = () => {
         const {ethereum} = window;
         if ( !ethereum){
-            console.log("Make sure you have Metamask installed!");
+            setWalletInfo(mintData.notMetamasklink);
             return;
         }
         console.log("Wallet exists! We're ready to go!");
@@ -45,10 +47,10 @@ const MintBuy = () => {
             <h1 className={mintClass.mintTitle}>RICHYSHIB</h1>
             <p className="text-white text-12p mb-2p">Pick the amount of <span className="text-Mint">NFT's</span> you would like to mint.</p>
             <span className={mintClass.minuse} onClick={decreaseBycount}>-</span>
-            <input className={mintClass.input} type="text" value={buycount}/>
+            <input className={mintClass.input} type="text" defaultValue={2} value={buycount} />
             <span className={mintClass.plus} onClick={increaseBycount}>+</span>
             <button className={mintClass.mintBuyBtn} onClick={checkWalletIsConnected}>MINT</button>
-            <p className="text-12p text-white">Connect your wallet to buy NFTs.</p>
+            <p className="text-12p text-white">{walletInfo}</p>
         </div>
     );
 }

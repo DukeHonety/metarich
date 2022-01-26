@@ -47,7 +47,7 @@ const Teams = () =>{
             <h2 className={teamClass.title}>{teamString.title}</h2>
             <p className={teamClass.description}>{teamString.description}</p>
             <div className="w-375p mx-auto">
-                <Carousel autoPlay infiniteLoop interval={2000} showStatus={false} showIndicators={false}>
+                <Carousel autoPlay infiniteLoop interval={2000} showStatus={false} showIndicators={false} showThumbs={false}>
                     {
                     teams.map( (team:any, key:number) => {
                         return <TeamShow info={team} img={teamImg[key]} key={key} num={key}/>;
