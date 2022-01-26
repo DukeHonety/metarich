@@ -1,5 +1,14 @@
 import {useState} from "react";
-
+declare global {
+    interface Window {
+      ethereum: {
+        request<T>(params: { method: string }): Promise<T>;
+        on<T>(event: string, cb: (params: T) => void): void;
+        removeListener<T>(event: string, cb: (params: T) => void): void;
+        selectedAddress: string | undefined;
+      };
+    }
+  }
 const MintBuy = () => {
 
     const [buycount,setBuyCount] = useState(2);
@@ -16,7 +25,14 @@ const MintBuy = () => {
         value++;
         setBuyCount(value);
     };
-
+    const checkWalletIsConnected = () => {
+        const {ethereum} = window;
+        if ( !ethereum){
+            console.log("Make sure you have Metamask installed!");
+            return;
+        }
+        console.log("Wallet exists! We're ready to go!");
+    }
     const mintClass = {
         mintTitle: "m-20p mb-30p text-montserrat text-38p leading-44p font-bold text-white",
         minuse: "inline-block bg-white w-30p h-30p cursor-pointer br-0 rounded-l-full text-center hover:bg-gray-100",
@@ -31,7 +47,7 @@ const MintBuy = () => {
             <span className={mintClass.minuse} onClick={decreaseBycount}>-</span>
             <input className={mintClass.input} type="text" value={buycount}/>
             <span className={mintClass.plus} onClick={increaseBycount}>+</span>
-            <button className={mintClass.mintBuyBtn}>MINT</button>
+            <button className={mintClass.mintBuyBtn} onClick={checkWalletIsConnected}>MINT</button>
             <p className="text-12p text-white">Connect your wallet to buy NFTs.</p>
         </div>
     );
