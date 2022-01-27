@@ -1,5 +1,7 @@
 import {useState,useEffect} from "react";
 import { useEthers, useEtherBalance } from "@usedapp/core";
+
+import { formatEther } from "@ethersproject/units";
 import configInfo from "../../config.json";
 import MintButtonCom from "./mintButton";
 
@@ -13,11 +15,10 @@ declare global {
       };
     }
   }
-const {ethereum} = window;
 const MintAgainPane = () => {
     const mintData = configInfo.mintAgain;
-    const [ethCount,setEthCount] = useState(2);
-
+    
+    const {ethereum} = window;
     const {activateBrowserWallet, account } = useEthers();
     const etherBalance = useEtherBalance(account);
     const [walletInfo, setWalletInfo] = useState(mintData.mintNormal);
@@ -34,6 +35,9 @@ const MintAgainPane = () => {
         title: "MINT IS LIVE",
         detail: "We offer you the benefits of the Golden Whale if you mint 1 more.",
     };
+
+    const EtherCount =  (etherBalance && parseFloat(formatEther(etherBalance)).toFixed(3)) ;
+    
     useEffect(()=>{
         if ( !ethereum){
             window.history.back();
@@ -54,7 +58,7 @@ const MintAgainPane = () => {
                 <div className="w-1/2 flex justify-col">
                     <div className="pl-50p text-left mt-80p">
                         <h1 className={mintClass.mintTitle}>RICHYSHIB</h1>
-                        <p className="text-white text-24p mb-2p">0.00ETH</p>
+                        <p className="text-white text-24p mb-2p">{EtherCount} ETH</p>
                         <div className="flex">
                             <MintButtonCom name="No"/>
                             <MintButtonCom name="YES"/>

@@ -1,5 +1,5 @@
 import {useState,useEffect} from "react";
-import { useEthers, useEtherBalance } from "@usedapp/core";
+import { useEthers, useEtherBalance, Ether } from "@usedapp/core";
 import configInfo from "../../config.json";
 import { formatEther } from "@ethersproject/units";
 import { workerData } from "worker_threads";
@@ -14,13 +14,14 @@ declare global {
       };
     }
   }
-const {ethereum} = window;
+
 const MintBuy = () => {
     const mintData = configInfo.mint;
     const [buycount,setBuyCount] = useState(2);
 
+    
+    const {ethereum} = window;
     const {activateBrowserWallet, account } = useEthers();
-    console.log(account);
     const etherBalance = useEtherBalance(account);
     const [walletInfo, setWalletInfo] = useState(mintData.mintNormal);
     
@@ -51,21 +52,34 @@ const MintBuy = () => {
             return;
         }
         //setWalletInfo(mintData.metamasklink);
-        activateBrowserWallet();
-        //console.log(etherBalance && JSON.stringify(etherBalance));
+        isMetaMaskConnected();
+        //window.history.back();
+        //window.location.href = "/valid";
     }
-    
     useEffect(()=>{
         if (ethereum) {
             //var provider = new ethers.providers.Web3Provider(ethereum);
-            
+            //isMetaMaskConnected();
         }
     },[]);
     const isMetaMaskConnected = async () => {
+        activateBrowserWallet();
+        
+        const accounts:any = await ethereum.request({ method: 'eth_requestAccounts' });
+        const account = accounts[0];
+        if ( account ){
+            const EtherCount =  (etherBalance && parseFloat(formatEther(etherBalance)).toFixed(3)) ;
+            // console.log(EtherCount);
+            window.history.back();
+            window.location.href = "/valid";
+        }
+        // etherBalance = useEtherBalance(account);
         //const accounts = await provider.listAccounts();
         //return accounts.length > 0;
+        // console.log(account);
     }
-
+    const accountAddress = account ? (<p className="text-white"> {account && `${account.slice(0, 6)}...${account.slice(account.length - 4, account.length)}`} </p>) : (<p className="text-12p text-white">{walletInfo}</p>);
+    const linkMetamaskInfo = <p className="text-12p text-white">{walletInfo}</p>;
     return (
         <div className="pl-50p text-left mt-80p">
             <h1 className={mintClass.mintTitle}>RICHYSHIB</h1>
@@ -74,9 +88,11 @@ const MintBuy = () => {
             <input className={mintClass.input} type="text" onChange={()=>{}} defaultValue={2} value={buycount} />
             <span className={mintClass.plus} onClick={increaseBycount}>+</span>
             <button className={mintClass.mintBuyBtn} onClick={checkWalletIsConnected}>MINT</button>
-            { () => { 
-                    return account ? <div>work</div> : <p className="text-12p text-white">{walletInfo}</p>;
-                } 
+            {/* {
+                account ? <p className="text-white">{etherBalance && parseFloat(formatEther(etherBalance)).toFixed(3)} ETH</p> : <></>
+            } */}
+            { 
+            linkMetamaskInfo
             } 
         </div>
     );
