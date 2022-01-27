@@ -14,7 +14,7 @@ import WarnBeware from "./warnBeware";
 const Richyshib = () =>{
     return (
         <>
-            <div className="pt-100p">
+            <div className="pt-155p">
                 <PageHeader />
                 <MintPage />
                 <Abouts />

@@ -5,6 +5,11 @@
         "notMetamasklink": "Make sure you have Metamask installed!",
         "mintNormal": "Connect your wallet to buy NFTs."
     },
+    "mintAgain":{
+        "metamasklink" : "Meta mask is installed",
+        "notMetamasklink": "Make sure you have Metamask installed!",
+        "mintNormal": "Connect your wallet to buy NFTs."
+    },
     "about":{
         "mainAbout":  "Welcome to our community. Being part of the RICHYSHIB introduces you to a community of world wild entrepreneurs. It will give you the opportunity to get in touch with masters of e-commerce already set-up in the real life business. Many IRL meet up events as online events will be organized between holders so that they can exchange their network, discuss marketing strategies and all subjects related to their business, so we can grow up and improve together.",
         "moreAbout":[{

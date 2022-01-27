@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { DAppProvider } from "@usedapp/core";
 import {
   BrowserRouter,
   Routes,
@@ -17,7 +18,7 @@ ReactDOM.render(
     <BrowserRouter>
     <div id="particles">
       <Routes>
-        <Route path="/" element={<Richyshib />} />
+        <Route path="/" element={<DAppProvider config={{}}><Richyshib /></DAppProvider>} />
         <Route path="/valid" element={<MintAgain />} />
       </Routes>
     </div>
