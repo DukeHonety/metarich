@@ -1,6 +1,8 @@
 import {useState,useEffect} from "react";
 import { useEthers, useEtherBalance } from "@usedapp/core";
 import configInfo from "../../config.json";
+import { formatEther } from "@ethersproject/units";
+import { workerData } from "worker_threads";
 
 declare global {
     interface Window {
@@ -18,6 +20,7 @@ const MintBuy = () => {
     const [buycount,setBuyCount] = useState(2);
 
     const {activateBrowserWallet, account } = useEthers();
+    console.log(account);
     const etherBalance = useEtherBalance(account);
     const [walletInfo, setWalletInfo] = useState(mintData.mintNormal);
     
@@ -68,10 +71,13 @@ const MintBuy = () => {
             <h1 className={mintClass.mintTitle}>RICHYSHIB</h1>
             <p className="text-white text-12p mb-2p">Pick the amount of <span className="text-Mint">NFT's</span> you would like to mint.</p>
             <span className={mintClass.minuse} onClick={decreaseBycount}>-</span>
-            <input className={mintClass.input} type="text" defaultValue={2} value={buycount} />
+            <input className={mintClass.input} type="text" onChange={()=>{}} defaultValue={2} value={buycount} />
             <span className={mintClass.plus} onClick={increaseBycount}>+</span>
             <button className={mintClass.mintBuyBtn} onClick={checkWalletIsConnected}>MINT</button>
-            <p className="text-12p text-white">{walletInfo}</p>
+            { () => { 
+                    return account ? <div>work</div> : <p className="text-12p text-white">{walletInfo}</p>;
+                } 
+            } 
         </div>
     );
 }
